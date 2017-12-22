@@ -1,0 +1,61 @@
+/*H1*/
+
+
+
+/*SEARCH*/
+
+
+
+
+/*GALLERY-TOP*/
+
+.gallery-block {
+  width: 20%;
+/*  height: 100px;*/
+  float: left;
+}
+
+
+
+
+/*ABOUTINSTRUCTOR*/
+
+.instructor-block {
+  width: 20%;
+  height: 200px;
+/*  height: 100px;*/
+  float: left;
+}
+
+.sport-block {
+  width: 33%;
+/*  height: 100px;*/
+  float: left;
+}
+
+.aboutinstructor-photo-wrapper, 
+.buttons {
+  width: 25%;
+}
+
+.aboutinstructor-sport {
+  width: 50%;
+}
+
+.aboutinstructor-block {
+/*  height: 100px;*/
+  float: left;
+}
+
+.aboutinstructor-education {
+  clear: left;
+}
+
+
+
+
+/*REVIEW*/
+
+
+
+/*GALLERY-BUTTON*/

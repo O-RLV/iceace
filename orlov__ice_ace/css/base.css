@@ -1,0 +1,227 @@
+/*общие свойства*/
+* {
+ margin: 0;
+ padding: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+ }
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+src: url(../fonts/Futura PT/FUTURAREGULAR.TTF) format("truetype");
+font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: local(FUTURABOLD.TTF) format("truetype");
+  src: url(../fonts/Futura PT/FUTURABOLD.TTF) format("truetype");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Futura PT", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.row {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.row:after {
+  content:'';
+  display: block;
+  clear: both;
+}
+
+img{
+  vertical-align: top;
+}
+
+.btn {
+  border: 2px solid #000;
+}
+
+h2 {
+  font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+/*HEADER*/
+
+header {
+  border: 1px solid #f0f;
+  min-height: 130px;
+}
+
+.row-header {
+  margin-top: 37px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.logowrapper {
+  float: left;
+  padding-left: 20px;
+}
+
+.nav-header {
+  float: left;
+  vertical-align: middle;
+/*  margin-top: 20px;*/
+  border: 1px solid #000;
+}
+
+.list-item {
+margin: 0 22px;
+font-weight: bold;
+}
+
+.phone {
+  float: right;
+  padding-right: 20px;
+}
+
+.phone-link {
+  color: black;
+  font-weight: bold;
+}
+
+.header-btn {
+  font-weight: bold;
+  color: green;
+  padding: 16px;
+}
+
+
+
+
+/*FOOTER*/
+
+
+.page-footer {
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  height: 306px;
+/*  box-shadow: inset 0px 0px 0px 450px rgba(0, 0, 0, 0.4),
+  inset 0px 0px 0px 3px rgba(255, 255, 255, 0.5);*/
+}
+
+.row-item-top {
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 80px;
+  height: 55px;
+  float: left;
+  margin-top: 60px;
+}
+
+.social-networks {
+  text-align: center; 
+  padding: 11px 0;
+}
+
+.social-networks-a {
+padding: 0px 20px;
+}
+
+.contacts-wrapper {
+  display: inline-block;
+  width: 200px;
+}
+
+.contacts {
+  height: 55px;
+  text-align: right;
+}
+
+.phone-link {
+  font-size: 22px;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.email {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.sprite-youtubelogo {
+    width: 32px;
+    height: 32px;
+    background-position: -248px -116px;
+}
+
+.sprite-instagramlogo {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -84px;
+}
+
+.sprite-facebooklogo {
+    width: 18px;
+    height: 33px;
+    background-position: -187px -5px;
+}
+
+.sprite-vk {
+    width: 40px;
+    height: 33px;
+    background-position: -143px -166px;
+}
+
+.row-item-bottom-one {
+  width: 40%;
+  padding-left: 20px;
+  float: left;
+}
+
+.row-item-bottom-two {
+  width: 60%;
+  padding-right: 20px;
+  margin-bottom: 80px;
+  float: right;
+  text-align: right;
+}
+
+.address-wrapper {
+  width: 300px;
+}
+
+.footer-nav-item-a {
+  padding-left: 50px;
+}

@@ -1,0 +1,343 @@
+/*PROMO*/
+
+.promo {
+  background-image: url(../img/promo-bg.jpg);
+  padding-bottom: 200px;
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center bottom;
+  margin-left: -1px;
+}
+
+.main-title {
+  display: block;
+  color: white;
+  font-size: 50px;
+  width: 400px;
+}
+
+.main-title span {
+  display: block;
+  font-size: 24px;
+}
+
+
+
+
+/*SERVICES*/
+
+.services-header,
+.services-subscription {
+  text-align: center;
+}
+
+.services-header {
+  margin-top: -7px;
+  margin-bottom: 40px;
+}
+
+.services-subscription {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.services-block {
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 245px;
+  float: left;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.services-img {
+  max-width: 100%;
+}
+
+.services-block-header {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.time {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.sprite-arrow {
+    width: 37px;
+    height: 27px;
+    background-position: -160px -84px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+
+
+
+/*ADVANTAGE*/
+
+.advantage-header {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.advantage-item-title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.transfer-header {
+  margin-top: 30px;
+}
+
+.advantage-block {
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 215px;
+  float: left;
+  margin-bottom: 40px;
+  vertical-align: bottom;
+}
+
+.sprite-like {
+  width: 60px;
+  height: 61px;
+  background-position: -5px -141px;
+  display: block; 
+  margin: 0 auto;
+}
+
+.sprite-certificate {
+  width: 53px;
+  height: 61px;
+  background-position: -97px -70px;
+  display: block; 
+  margin: 0 auto;
+}
+
+.sprite-today {
+  width: 58px;
+  height: 61px;
+  background-position: -29px -5px;
+  display: block; 
+  margin: 0 auto;
+}
+
+.sprite-ski {
+  width: 61px;
+  height: 75px;
+  background-position: -215px -5px;
+  display: block; 
+  margin: 0 auto;
+}
+
+.sprite-helmet {
+  width: 58px;
+  height: 75px;
+  background-position: -75px -171px;
+  display: block; 
+  margin: 0 auto;
+}
+
+.sprite-bus {
+  width: 80px;
+  height: 65px;
+  background-position: -97px -5px;
+  margin-bottom: 40px;
+  display: block; 
+  margin: 0 auto;
+}
+
+
+
+
+/*DISCOUNTS*/
+
+.discounts-block {
+  width: 33.33%;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 160px;
+  float: left;
+  color: white;
+  text-align: center;
+}
+
+.discounts {
+  background-image: url(../img/blairhabenicht.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  min-height: 330px;
+  box-shadow: inset 0px 0px 0px 450px rgba(0, 0, 0, 0.4),
+  inset 0px 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+.discounts-header {
+  color: white;
+  margin: 35px 0;
+  text-align: center;
+}
+
+.discounts-block-wrapper {
+  width: 210px;
+  text-align: center;
+  display: inline-block;
+}
+
+.discounts-header-item {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.discounts-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.percent {
+  color: green;
+}
+
+.discounts-btn {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+  border: 2px solid white;
+  height: 46px;
+  width: 135px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  line-height: 42px;
+}
+
+.discounts-a-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+/*TEAM*/
+
+.team-header {
+  text-align: center;
+  margin: 70px 0 45px 0;
+}
+
+.background-img-wrapper {
+  height: 655px;
+  background-image: linear-gradient(to top, white 0%, transparent 50%), url(../img/team.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  margin-bottom: -20px;
+}
+
+.text-wrapper {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.team-subscription {
+  padding-bottom: 70px;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 510px;
+}
+
+.team-a-wrapper {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.team-btn {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+  height: 46px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+  line-height: 42px;
+}
+
+
+
+
+/*MAP*/
+
+.map {
+  text-align: center;
+}
+
+.map-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.map-text-wrapper {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.map-text {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.map-wrapper {
+  margin-left: 60px;
+  margin-right: 60px;
+  display: inline;
+}
+
+
+
+/*COMMUNITY*/
+
+.community-header {
+  text-align: center;
+  margin: 110px;
+  margin-bottom: 40px;
+}
+
+.row-community {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+.gallery-item {
+  width: 16.66%;
+  height: 180px;
+  padding-left: 8px;
+  padding-right: 8px;
+  float: left;
+}
+
+.community-img {
+  max-width: 100%;
+}
+
+.gallery {
+  margin-bottom: 87px;
+}
